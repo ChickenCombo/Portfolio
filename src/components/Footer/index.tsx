@@ -1,4 +1,4 @@
-import { P } from "../GlobalStyles";
+import { P } from "../global";
 import { Container, Footnote, Icon, IconsContainer } from "./styles";
 import { FiGithub, FiLinkedin } from "react-icons/fi";
 

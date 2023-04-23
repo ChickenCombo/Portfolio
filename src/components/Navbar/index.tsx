@@ -1,12 +1,5 @@
 import { Header, Container, IconsContainer, Icon } from "./styles";
-import {
-  FiHome,
-  FiUser,
-  FiTerminal,
-  FiMail,
-  FiLinkedin,
-  FiGithub,
-} from "react-icons/fi";
+import { FiHome, FiUser, FiTerminal, FiMail } from "react-icons/fi";
 
 const Navbar = () => {
   return (
@@ -24,14 +17,6 @@ const Navbar = () => {
           </Icon>
           <Icon>
             <FiMail />
-          </Icon>
-        </IconsContainer>
-        <IconsContainer>
-          <Icon>
-            <FiGithub />
-          </Icon>
-          <Icon>
-            <FiLinkedin />
           </Icon>
         </IconsContainer>
       </Container>

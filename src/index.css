@@ -5,7 +5,6 @@
 @tailwind utilities;
 
 body {
-  font-family: "Inter", sans-serif;
   overflow-x: hidden;
   background-image: radial-gradient(#e0dfd3 8%, transparent 8%);
   background-position: 0% 0%;
