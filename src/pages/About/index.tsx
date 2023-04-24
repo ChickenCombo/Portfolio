@@ -63,11 +63,11 @@ const About = () => {
       </P>
       <P className="mb-3">
         I have experience with developing and releasing native Android apps
-        using Java/Kotlin, and a little it of cross-plaform development with
+        using Java/Kotlin, and a little bit of cross-plaform development with
         React Native. Recently, my focus has shifted towards full-stack web
-        development, and I am currently engaged in honing my proficiency in the
-        MERN stack (MongoDB, Express, React, Node.js), as well as building REST
-        APIs.
+        development, and I am currently focused in improving my proficiency in
+        using MERN stack (MongoDB, Express, React, Node.js), as well as building
+        REST APIs.
       </P>
       <H2 className="mb-4">Tech Stacks</H2>
       <CardIcon icons={techStacks} />
