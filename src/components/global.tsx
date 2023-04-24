@@ -28,13 +28,13 @@ export const FlexCol = tw.main`
 export const Button = tw.button`
     flex items-center gap-2
     py-2 px-5 w-fit
-    border rounded-md shadow-md
+    border rounded-lg shadow-md
     hover:border-gray-300
     text-gray-800
     font-semibold
     group
     transition-colors
-    hover:text-black
+    hover:text-black hover:bg-gray-100
     bg-white
 `;
 
@@ -60,5 +60,3 @@ export const Highlight = styled.span<HighlightProps>`
     21px -18.1px 7.3px rgba(255, 255, 255, 1),
     -18.1px -27.3px 30px rgba(255, 255, 255, 1);
 `;
-
-

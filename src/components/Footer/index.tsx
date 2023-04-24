@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <Footnote>
       <Container>
-        <P className="pl-2">Made with 💖 by Lester</P>
+        <P className="pl-2 text-xs">Made with 💖 by Lester</P>
         <IconsContainer>
           <Icon>
             <FiGithub onClick={handleGithubClick} />

@@ -5,11 +5,11 @@ export const Container = tw.div`
 `;
 
 export const Card = tw.button`
-  h-16 w-16 grid place-items-center rounded-md border pointer bg-white m-1 transition-colors text-4xl shadow-md
-  hover:border-gray-300
+  h-16 w-16 grid place-items-center rounded-lg border pointer bg-white m-1 transition-colors text-4xl shadow-md
+  hover:border-gray-300 hover:bg-gray-100
 `;
 
 export const Popover = tw.div`
-  absolute h-10 min-w-20 bg-white shadow-sm rounded-lg p-4 text-sm border transform translate-y-9
+  absolute h-10 min-w-20 bg-white shadow-md rounded-lg p-4 text-sm border transform translate-y-9
   flex justify-center items-center
 `;

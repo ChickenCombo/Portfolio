@@ -1,7 +1,7 @@
 import tw from "tailwind-styled-components";
 
 export const Footnote = tw.footer`
-  my-8 max-w-4xl w-full px-5 mx-auto
+  my-4 max-w-4xl w-full px-5 mx-auto
 `;
 
 export const Container = tw.div`
