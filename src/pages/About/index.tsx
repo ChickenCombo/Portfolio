@@ -23,6 +23,7 @@ import { FaJava } from "react-icons/fa";
 import { H1, H2, P, Highlight } from "../../components/global";
 import { Container } from "./styles";
 import CardIcon from "../../components/CardIcon";
+import Experience from "../../components/Experience";
 
 const About = () => {
   const techStacks = [
@@ -71,6 +72,7 @@ const About = () => {
       <H2 className="mb-4">Tech Stacks</H2>
       <CardIcon icons={techStacks} />
       <H2 className="mb-4">Experience</H2>
+      <Experience />
     </Container>
   );
 };
