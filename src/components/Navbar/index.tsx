@@ -1,5 +1,6 @@
 import { Header, Container, IconsContainer, Icon } from "./styles";
 import { FiHome, FiUser, FiTerminal, FiMail } from "react-icons/fi";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
@@ -7,16 +8,48 @@ const Navbar = () => {
       <Container>
         <IconsContainer>
           <Icon>
-            <FiHome />
+            <Link
+              to="homepage"
+              spy={true}
+              smooth={true}
+              offset={-window.innerHeight}
+              duration={500}
+            >
+              <FiHome />
+            </Link>
           </Icon>
           <Icon>
-            <FiUser />
+            <Link
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-120}
+              duration={500}
+            >
+              <FiUser />
+            </Link>
           </Icon>
           <Icon>
-            <FiTerminal />
+            <Link
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={-120}
+              duration={500}
+            >
+              <FiTerminal />
+            </Link>
           </Icon>
           <Icon>
-            <FiMail />
+            <Link
+              to="contacts"
+              spy={true}
+              smooth={true}
+              offset={-120}
+              duration={500}
+            >
+              <FiMail />
+            </Link>
           </Icon>
         </IconsContainer>
       </Container>

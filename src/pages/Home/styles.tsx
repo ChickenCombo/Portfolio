@@ -1,7 +1,7 @@
 import tw from "tailwind-styled-components";
 
 export const Container = tw.div`
-  mt-36 mx-auto max-w-4xl w-full px-5
+  flex flex-col items-center justify-center mx-auto max-w-4xl w-full px-5 h-screen max-h-screen
 `;
 
 export const Portrait = tw.div`
@@ -11,4 +11,8 @@ export const Portrait = tw.div`
 
 export const WavingHand = tw.span`
   inline-block animate-wave origin-[70%_70%]
+`;
+
+export const ScrollArrow = tw.div`
+  flex flex-col items-center absolute bottom-[50px] left-[50%] translate-x-[-50%]
 `;
