@@ -1,7 +1,7 @@
 import tw from "tailwind-styled-components";
 
 export const Card = tw.div`
-  rounded-md border pointer bg-white m-1 transition-colors p-8
+  rounded-md border pointer bg-white m-1 transition-colors p-8 shadow-md
   hover:border-gray-300
 `;
 

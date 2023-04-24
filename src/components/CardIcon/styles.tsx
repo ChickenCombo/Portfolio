@@ -5,7 +5,7 @@ export const Container = tw.div`
 `;
 
 export const Card = tw.button`
-  h-16 w-16 grid place-items-center rounded-md border pointer bg-white m-1 transition-colors text-4xl
+  h-16 w-16 grid place-items-center rounded-md border pointer bg-white m-1 transition-colors text-4xl shadow-md
   hover:border-gray-300
 `;
 

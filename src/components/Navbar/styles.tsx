@@ -5,7 +5,7 @@ export const Header = tw.header`
 `;
 
 export const Container = tw.div`
-  flex items-center justify-between backdrop-blur-sm bg-opacity-50 bg-white border p-3 rounded-lg
+  flex items-center justify-between backdrop-blur-sm bg-opacity-50 bg-white border p-3 rounded-lg shadow-md
 `;
 
 export const IconsContainer = tw.div`
