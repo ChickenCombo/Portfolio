@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <Container id="projects">
       <H1>
-        <Highlight color="130, 255, 173">Projects</Highlight>
+        <Highlight color="238, 212, 159">Projects</Highlight>
       </H1>
     </Container>
   );

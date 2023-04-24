@@ -30,22 +30,20 @@ const CardIcon = (props: CardIconProps) => {
   return (
     <Container>
       {icons.map((icon, index) => (
-        <>
-          <Card
-            key={index}
-            onMouseEnter={() => onMouseEnter(index)}
-            onMouseLeave={onMouseLeave}
+        <Card
+          key={index}
+          onMouseEnter={() => onMouseEnter(index)}
+          onMouseLeave={onMouseLeave}
+        >
+          {icon.icon}
+          <Popover
+            className={`${
+              isPopoverVisible && hoveredIndex === index ? "" : "hidden"
+            }`}
           >
-            {icon.icon}
-            <Popover
-              className={`${
-                isPopoverVisible && hoveredIndex === index ? "" : "hidden"
-              }`}
-            >
-              <P>{icon.name}</P>
-            </Popover>
-          </Card>
-        </>
+            <P>{icon.name}</P>
+          </Popover>
+        </Card>
       ))}
     </Container>
   );
