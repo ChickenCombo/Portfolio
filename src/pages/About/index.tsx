@@ -50,7 +50,7 @@ const About = () => {
       <H2 className="mb-1">Info</H2>
       <P>• Graduating student at the University of Santo Tomas</P>
       <P>• Specializes in Web and Mobile App Development</P>
-      <P>• Based at Quezon City, PH</P>
+      <P>• From Quezon City, PH</P>
       <H2 className="mb-1">Tech Stacks</H2>
       <CardIcon icons={techStacks} />
       <H2 className="mb-1">Experience</H2>

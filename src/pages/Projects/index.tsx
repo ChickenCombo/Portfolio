@@ -1,4 +1,3 @@
-import React from "react";
 import { H1, Highlight } from "../../components/global";
 import { Container } from "./styles";
 
