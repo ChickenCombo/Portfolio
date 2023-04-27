@@ -50,18 +50,18 @@ const Contacts = () => {
           Feel free to contact me via my socials or fill-up the form bellow for
           any inquiries, I'm always open for new opportunities and projects!
         </P>
-        <H2 className="flex items-center">
+        <P className="flex items-center text-sm truncate">
           <FiMail className="mr-2" />
           johnlester.cuadra.cics@ust.edu.ph
-        </H2>
-        <H2 className="flex items-center">
+        </P>
+        <P className="flex items-center text-sm truncate">
           <FiLinkedin className="mr-2" />
           in/johnlestercuadra
-        </H2>
-        <H2 className="flex items-center">
+        </P>
+        <P className="flex items-center text-sm truncate">
           <FiGithub className="mr-2" />
           ChickenCombo
-        </H2>
+        </P>
         <Form onSubmit={handleFormSubmit}>
           <div>
             <Label>Your email</Label>
