@@ -26,3 +26,7 @@ export const Textarea = tw.textarea`
   block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-md border border-gray-300
   focus:ring-primary-500 focus:border-primary-500
 `;
+
+export const FlexRow = tw.div`
+  flex flex-row items-center
+`;

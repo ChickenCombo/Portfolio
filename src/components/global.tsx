@@ -36,6 +36,8 @@ export const Button = tw.button`
     transition-colors
     hover:text-black hover:bg-gray-100
     bg-white
+    ${(prop) =>
+      prop.disabled ? "cursor-not-allowed bg-gray-200 hover:bg-gray-200" : ""}
 `;
 
 export const Highlight = styled.span<HighlightProps>`
