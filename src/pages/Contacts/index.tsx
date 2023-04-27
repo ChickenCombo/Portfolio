@@ -1,5 +1,5 @@
 import { FormEvent, useState } from "react";
-import { H1, P, Highlight, Button, H2 } from "../../components/global";
+import { H1, P, Highlight, Button } from "../../components/global";
 import {
   Card,
   Container,
