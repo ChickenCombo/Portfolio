@@ -45,7 +45,7 @@ const Contacts = () => {
         <Highlight color="198, 160, 246">Contacts</Highlight>
       </H1>
       <Card>
-        <H1>Let's build something.</H1>
+        <H1>Let's build something!</H1>
         <P className="mb-4">
           Feel free to contact me via my socials or fill-up the form bellow for
           any inquiries, I'm always open for new opportunities and projects!
