@@ -1,6 +1,6 @@
 # Portfolio
 
-My portfolio website: https://lestercuadra.me/
+My portfolio website: https://lestercuadra.me/ or https://chickencombo.github.io/portfolio/
 
 ## 📄 About
 
