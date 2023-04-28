@@ -7,7 +7,7 @@ const Projects = () => {
     <Container id="projects">
       <H1 className="mb-4">
         <Highlight color="rgb(166, 218, 149)" show>
-          About
+          Projects
         </Highlight>
       </H1>
       <ProjectContainer>
