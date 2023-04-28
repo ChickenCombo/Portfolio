@@ -1,6 +1,6 @@
 import { H1, Highlight, P } from "../../components/global";
 import { Badges, Card, Container, ProjectContainer } from "./styles";
-import { projects } from "../../projects";
+import { projects } from "../../data";
 
 const Projects = () => {
   return (

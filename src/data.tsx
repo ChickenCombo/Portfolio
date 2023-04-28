@@ -1,3 +1,27 @@
+import {
+  SiReact,
+  SiTailwindcss,
+  SiTypescript,
+  SiJavascript,
+  SiExpress,
+  SiMongodb,
+  SiMysql,
+  SiFirebase,
+  SiHtml5,
+  SiCss3,
+  SiNodedotjs,
+  SiStyledcomponents,
+  SiVite,
+  SiJest,
+  SiTestinglibrary,
+  SiCypress,
+  SiGit,
+  SiKotlin,
+  SiPython,
+  SiSolidity,
+  SiGithub,
+} from "react-icons/si";
+import { FaJava } from "react-icons/fa";
 import dora from "./assets/dora.png";
 import trinketsofluna from "./assets/trinketsofluna.png";
 import weatherapp from "./assets/weatherapp.png";
@@ -60,4 +84,29 @@ export const projects = [
     badges: ["React.js", "MongoDB", "Node.js", "TypeScript", "Express"],
     url: "http://google.com",
   },
+];
+
+export const techStacks = [
+  { name: "HTML5", icon: <SiHtml5 /> },
+  { name: "CSS3", icon: <SiCss3 /> },
+  { name: "JavaScript", icon: <SiJavascript /> },
+  { name: "TypeScript", icon: <SiTypescript /> },
+  { name: "Node.js", icon: <SiNodedotjs /> },
+  { name: "React", icon: <SiReact /> },
+  { name: "Vite", icon: <SiVite /> },
+  { name: "TailwindCSS", icon: <SiTailwindcss /> },
+  { name: "styled-components", icon: <SiStyledcomponents /> },
+  { name: "Express", icon: <SiExpress /> },
+  { name: "MongoDB", icon: <SiMongodb /> },
+  { name: "MySQL", icon: <SiMysql /> },
+  { name: "Firebase", icon: <SiFirebase /> },
+  { name: "Jest", icon: <SiJest /> },
+  { name: "React Testing Library", icon: <SiTestinglibrary /> },
+  { name: "Cypress", icon: <SiCypress /> },
+  { name: "Java", icon: <FaJava /> },
+  { name: "Kotlin", icon: <SiKotlin /> },
+  { name: "Python", icon: <SiPython /> },
+  { name: "Solidity", icon: <SiSolidity /> },
+  { name: "Git", icon: <SiGit /> },
+  { name: "GitHub", icon: <SiGithub /> },
 ];
