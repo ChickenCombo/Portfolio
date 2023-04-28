@@ -1,5 +1,5 @@
 import { FormEvent, useState } from "react";
-import { H1, P, Highlight, Button } from "../../components/global";
+import { H1, P, Button, Highlight } from "../../components/global";
 import {
   Card,
   Container,
@@ -42,7 +42,9 @@ const Contacts = () => {
   return (
     <Container id="contacts">
       <H1 className="mb-4">
-        <Highlight color="198, 160, 246">Contacts</Highlight>
+        <Highlight color="rgb(198, 160, 246)" show>
+          Contacts
+        </Highlight>
       </H1>
       <Card>
         <H1>Let's build something!</H1>

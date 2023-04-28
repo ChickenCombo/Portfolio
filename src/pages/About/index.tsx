@@ -20,7 +20,7 @@ import {
   SiPython,
 } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
-import { H1, H2, P, Highlight } from "../../components/global";
+import { H1, H2, Highlight, P, Underline } from "../../components/global";
 import { Container } from "./styles";
 import CardIcon from "../../components/CardIcon";
 import Experience from "../../components/Experience";
@@ -52,14 +52,19 @@ const About = () => {
   return (
     <Container id="about">
       <H1 className="mb-4">
-        <Highlight color="130, 255, 173">About</Highlight>
+        <Highlight color="rgb(237, 135, 150)" show>
+          About
+        </Highlight>
       </H1>
       <H2 className="mb-1">Introduction</H2>
       <P className="mb-3">
-        Hello there! I'm Lester, a graduating BSIT student at the University of
-        Santo Tomas, and I major in Web and Mobile App Development. I have a
-        passion for taking on challenges and developing applications that make a
-        difference and enhance the quality of life for others.
+        Hello there! I'm Lester, a graduating{" "}
+        <Underline color="rgb(255, 198, 69)">
+          BSIT student at the University of Santo Tomas
+        </Underline>
+        , and I major in Web and Mobile App Development. I have a passion for
+        taking on challenges and developing applications that make a difference
+        and enhance the quality of life for others.
       </P>
       <P className="mb-3">
         I have experience with developing and releasing native Android apps

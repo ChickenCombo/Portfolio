@@ -1,4 +1,4 @@
-import { H1, P, Highlight } from "../../components/global";
+import { H1, Highlight, P } from "../../components/global";
 import { Badges, Card, Container, ProjectContainer } from "./styles";
 import dora from "../../assets/dora.png";
 import trinketsofluna from "../../assets/trinketsofluna.png";
@@ -10,8 +10,10 @@ import stickynotes from "../../assets/stickynotes.png";
 const Projects = () => {
   return (
     <Container id="projects">
-      <H1>
-        <Highlight color="238, 212, 159">Projects</Highlight>
+      <H1 className="mb-4">
+        <Highlight color="rgb(166, 218, 149)" show>
+          About
+        </Highlight>
       </H1>
       <ProjectContainer>
         <Card>
