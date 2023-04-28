@@ -37,7 +37,7 @@ export const projects = [
     description:
       "Android-based mobile application that allows users to easily and quickly report disasters in real-time.",
     badges: ["Java", "Firebase", "Android", "Google Maps"],
-    url: "http://google.com",
+    url: "https://github.com/ChickenCombo/disaster-online-reporting-application",
   },
   {
     id: 2,
@@ -46,7 +46,7 @@ export const projects = [
     description:
       "An Ecommerce web app with ordering system, inventory system, and payment system.",
     badges: ["React.js", "Firebase", "PayMongo"],
-    url: "http://google.com",
+    url: "https://github.com/cedricquitor/trinketsofluna-ecommerce-web-app",
   },
   {
     id: 3,
@@ -55,7 +55,7 @@ export const projects = [
     description:
       "Android-based Weather application to quickly and accurately check the weather anywhere.",
     badges: ["Java", "Android", "OpenWeather", "Geocoding API"],
-    url: "http://google.com",
+    url: "https://github.com/ChickenCombo/weather-app",
   },
   {
     id: 4,
@@ -64,7 +64,7 @@ export const projects = [
     description:
       "A simple game which players try to guess whether the next artist has higher or lower monthly listeners than the current artist.",
     badges: ["React.js", "TypeScript", "TailwindCSS", "Puppeteer"],
-    url: "http://google.com",
+    url: "https://github.com/ChickenCombo/higher-or-lower-spotify",
   },
   {
     id: 5,
@@ -73,7 +73,7 @@ export const projects = [
     description:
       "A simple game which players try to guess whether the next anime has higher or lower rating than the current anime.",
     badges: ["Vanilla JavaScript", "HTML", "CSS"],
-    url: "http://google.com",
+    url: "https://github.com/ChickenCombo/higher-or-lower-anime",
   },
   {
     id: 6,
@@ -82,7 +82,7 @@ export const projects = [
     description:
       "A simple sticky notes application applying full-stack development using MERN stack.",
     badges: ["React.js", "MongoDB", "Node.js", "TypeScript", "Express"],
-    url: "http://google.com",
+    url: "https://github.com/ChickenCombo/notes",
   },
 ];
 

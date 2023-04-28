@@ -7,11 +7,7 @@ const Navbar = () => {
     <Header>
       <Container>
         <IconsContainer>
-          <Navlink
-            to="homepage"
-            offset={-window.innerHeight}
-            icon={<FiHome />}
-          />
+          <Navlink to="homepage" offset={0} icon={<FiHome />} />
           <Navlink to="about" offset={-120} icon={<FiUser />} />
           <Navlink to="projects" offset={-120} icon={<FiTerminal />} />
           <Navlink to="contacts" offset={-120} icon={<FiMail />} />

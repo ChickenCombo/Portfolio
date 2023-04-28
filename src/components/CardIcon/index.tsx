@@ -1,6 +1,6 @@
 import { ReactElement, useState } from "react";
 import { Container, Card, Popover } from "./styles";
-import { P } from "../global";
+import { Circle, P } from "../global";
 
 interface CardIcon {
   name: string;
@@ -35,7 +35,11 @@ const CardIcon = (props: CardIconProps) => {
           onMouseEnter={() => onMouseEnter(index)}
           onMouseLeave={onMouseLeave}
         >
-          {icon.icon}
+          {isPopoverVisible && hoveredIndex === index ? (
+            <Circle color="rgb(125, 216, 236)">{icon.icon}</Circle>
+          ) : (
+            <>{icon.icon}</>
+          )}
           <Popover
             className={`${
               isPopoverVisible && hoveredIndex === index ? "" : "hidden"

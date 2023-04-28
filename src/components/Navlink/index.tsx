@@ -12,7 +12,13 @@ const Navlink = (props: NavlinkProps) => {
 
   return (
     <Icon>
-      <Link to={to} spy={true} smooth={true} offset={offset} duration={500}>
+      <Link
+        to={to}
+        spy={true}
+        smooth={true}
+        offset={offset}
+        duration={500}
+      >
         {icon}
       </Link>
     </Icon>
