@@ -12,6 +12,3 @@ export const IconsContainer = tw.div`
   flex gap-3 p-2
 `;
 
-export const Icon = tw.div`
-  text-gray-500 hover:text-black pointer text-lg px-1 transition duration-200 ease-in-out
-`;

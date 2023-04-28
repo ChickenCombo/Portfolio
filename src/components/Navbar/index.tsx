@@ -1,56 +1,20 @@
-import { Header, Container, IconsContainer, Icon } from "./styles";
+import { Header, Container, IconsContainer } from "./styles";
 import { FiHome, FiUser, FiTerminal, FiMail } from "react-icons/fi";
-import { Link } from "react-scroll";
+import Navlink from "../Navlink";
 
 const Navbar = () => {
   return (
     <Header>
       <Container>
         <IconsContainer>
-          <Icon>
-            <Link
-              to="homepage"
-              spy={true}
-              smooth={true}
-              offset={-window.innerHeight}
-              duration={500}
-            >
-              <FiHome />
-            </Link>
-          </Icon>
-          <Icon>
-            <Link
-              to="about"
-              spy={true}
-              smooth={true}
-              offset={-120}
-              duration={500}
-            >
-              <FiUser />
-            </Link>
-          </Icon>
-          <Icon>
-            <Link
-              to="projects"
-              spy={true}
-              smooth={true}
-              offset={-120}
-              duration={500}
-            >
-              <FiTerminal />
-            </Link>
-          </Icon>
-          <Icon>
-            <Link
-              to="contacts"
-              spy={true}
-              smooth={true}
-              offset={-120}
-              duration={500}
-            >
-              <FiMail />
-            </Link>
-          </Icon>
+          <Navlink
+            to="homepage"
+            offset={-window.innerHeight}
+            icon={<FiHome />}
+          />
+          <Navlink to="about" offset={-120} icon={<FiUser />} />
+          <Navlink to="projects" offset={-120} icon={<FiTerminal />} />
+          <Navlink to="contacts" offset={-120} icon={<FiMail />} />
         </IconsContainer>
       </Container>
     </Header>
