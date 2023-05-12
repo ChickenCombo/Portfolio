@@ -27,7 +27,7 @@ import trinketsofluna from "./assets/trinketsofluna.png";
 import weatherapp from "./assets/weatherapp.png";
 import spotify from "./assets/spotify.png";
 import anime from "./assets/anime.png";
-import stickynotes from "./assets/stickynotes.png";
+import voting from "./assets/voting.png";
 
 export const projects = [
   {
@@ -50,12 +50,19 @@ export const projects = [
   },
   {
     id: 3,
-    image: weatherapp,
-    name: "Weather App",
+    image: voting,
+    name: "Blockchain Voting dApp",
     description:
-      "Android-based Weather application to quickly and accurately check the weather anywhere.",
-    badges: ["Java", "Android", "OpenWeather", "Geocoding API"],
-    url: "https://github.com/ChickenCombo/weather-app",
+      "A blockchain-based electoral college voting dApp project on the Ethereum blockchain.",
+    badges: [
+      "React.js",
+      "TypeScript",
+      "Hardhat",
+      "Solidity",
+      "TailwindCSS",
+      "Web3",
+    ],
+    url: "https://github.com/cedricquitor/blockchain-web-app",
   },
   {
     id: 4,
@@ -77,12 +84,12 @@ export const projects = [
   },
   {
     id: 6,
-    image: stickynotes,
-    name: "Sticky Notes",
+    image: weatherapp,
+    name: "Weather App",
     description:
-      "A simple sticky notes application applying full-stack development using MERN stack.",
-    badges: ["React.js", "MongoDB", "Node.js", "TypeScript", "Express"],
-    url: "https://github.com/ChickenCombo/notes",
+      "Android-based Weather application to quickly and accurately check the weather anywhere.",
+    badges: ["Java", "Android", "OpenWeather", "Geocoding API"],
+    url: "https://github.com/ChickenCombo/weather-app",
   },
 ];
 
