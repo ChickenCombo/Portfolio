@@ -8,6 +8,13 @@ export default {
       sans: "Inter, sans-serif",
     },
     extend: {
+      colors: {
+        "dark-hover-bg": "#131313",
+        "dark-border": "#444444",
+        "dark-text": "#c5c4c4",
+        "dark-icon": "#8c8c8c",
+        "badge": "#f2ed98",
+      },
       backgroundImage: {
         "dotted-light": "radial-gradient(#e0dfd3 8%, transparent 8%)",
         "dotted-dark": "radial-gradient(#262626 8%, transparent 8%)",

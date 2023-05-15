@@ -5,7 +5,7 @@ export const Footnote = tw.footer`
 `;
 
 export const Container = tw.div`
-  flex items-center justify-between backdrop-blur-sm bg-opacity-50 bg-white border p-3 rounded-lg shadow-md dark:bg-black dark:bg-opacity-50 dark:border-[#2d2d2d]
+  flex items-center justify-between backdrop-blur-sm bg-opacity-50 bg-white border p-3 rounded-lg shadow-md dark:bg-black dark:bg-opacity-50 dark:border-dark-border
 `;
 
 export const IconsContainer = tw.div`
@@ -13,5 +13,5 @@ export const IconsContainer = tw.div`
 `;
 
 export const Icon = tw.div`
-  text-gray-500 hover:text-black pointer text-lg px-1 transition duration-200 ease-in-out dark:text-[#8c8c8c] dark:hover:text-white
+  text-gray-500 hover:text-black pointer text-lg px-1 transition duration-200 ease-in-out dark:text-dark-icon dark:hover:text-white
 `;
