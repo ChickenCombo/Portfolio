@@ -7,7 +7,7 @@ import {
   Input,
   Label,
   Textarea,
-  FlexRow,s
+  FlexRow,
 } from "./styles";
 import { FiGithub, FiLinkedin, FiMail, FiSend } from "react-icons/fi";
 import { CgSpinner, CgCheck } from "react-icons/cg";
