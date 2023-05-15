@@ -9,8 +9,9 @@ export const ProjectContainer = tw.div`
 `;
 
 export const Card = tw.div`
-  rounded overflow-hidden border shadow-md bg-white rounded-lg cursor-pointer
+  rounded overflow-hidden border shadow-md bg-white rounded-lg cursor-pointer transition
   hover:border-gray-300 hover:bg-gray-100
+  dark:bg-black dark:border-[#444444] dark:hover:bg-[#131313] dark:text-white
 `;
 
 export const Badges = tw.span`

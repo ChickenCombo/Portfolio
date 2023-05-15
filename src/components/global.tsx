@@ -7,15 +7,15 @@ interface RoughNotionProps {
 }
 
 export const H1 = tw.h1`
-  font-bold text-lg
+  font-bold text-lg dark:text-white transition
 `;
 
 export const H2 = tw.h2`
-  font-semibold text-md
-`;
+  font-semibold text-md dark:text-white transition
+  `;
 
 export const P = tw.p`
-  text-gray-600 text-justify
+  text-gray-600 text-justify dark:text-[#c5c4c4] transition
 `;
 
 export const FlexRow = tw.main`
@@ -27,8 +27,9 @@ export const FlexCol = tw.main`
 `;
 
 export const Button = tw.button`
-  flex items-center gap-2 w-fit py-2 px-5 border rounded-lg shadow-md text-gray-800 font-semibold group bg-white transition-colors
+  flex items-center gap-2 w-fit py-2 px-5 border rounded-lg shadow-md text-gray-800 font-semibold group bg-white transition
 	hover:text-black hover:bg-gray-100 hover:border-gray-300
+  dark:bg-black dark:border-[#444444] dark:hover:bg-[#131313] dark:text-white
 	${(prop) =>
     prop.disabled ? "cursor-not-allowed bg-gray-200 hover:bg-gray-200" : ""}
 `;

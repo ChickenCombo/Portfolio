@@ -7,14 +7,14 @@ import Contacts from "./pages/Contacts";
 
 const App = () => {
   return (
-    <>
+    <div className="bg:white dark:bg-black bg-dotted-light overflow-x-hidden bg-vmin dark:bg-dotted-dark transition">
       <Navbar />
       <Home />
       <About />
       <Projects />
       <Contacts />
       <Footer />
-    </>
+    </div>
   );
 };
 

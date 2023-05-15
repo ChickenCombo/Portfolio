@@ -7,7 +7,7 @@ import {
   Input,
   Label,
   Textarea,
-  FlexRow,
+  FlexRow,s
 } from "./styles";
 import { FiGithub, FiLinkedin, FiMail, FiSend } from "react-icons/fi";
 import { CgSpinner, CgCheck } from "react-icons/cg";
@@ -99,11 +99,13 @@ const Contacts = () => {
                 Send
               </Button>
               {isSending ? (
-                <CgSpinner className="animate-spin text-lg mr-1" />
+                <CgSpinner className="animate-spin text-lg mr-1 text-black dark:text-white" />
               ) : (
-                result && <CgCheck className="text-2xl" />
+                result && (
+                  <CgCheck className="text-2xl text-black dark:text-white" />
+                )
               )}
-              <p className="text-sm text-gray-600">{result}</p>
+              <p className="text-sm text-gray-600 dark:text-white">{result}</p>
             </FlexRow>
           </Form>
         </Card>

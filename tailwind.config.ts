@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: "class",
   module: "jit",
   content: ["./index.html", "./src/**/*.{ts,tsx}"],
   theme: {
@@ -7,6 +8,13 @@ export default {
       sans: "Inter, sans-serif",
     },
     extend: {
+      backgroundImage: {
+        "dotted-light": "radial-gradient(#e0dfd3 8%, transparent 8%)",
+        "dotted-dark": "radial-gradient(#262626 8%, transparent 8%)",
+      },
+      backgroundSize: {
+        vmin: "5vmin 5vmin",
+      },
       animation: {
         wave: "wave 2.5s infinite",
       },
