@@ -117,3 +117,31 @@ export const techStacks = [
   { name: "Git", icon: <SiGit /> },
   { name: "GitHub", icon: <SiGithub /> },
 ];
+
+export const experiences = [
+  {
+    id: 1,
+    timeline: "Jun 2017 - Jun 2019",
+    company: "University of The East",
+    position: "Senior High School, General Academic Strand",
+  },
+  {
+    id: 2,
+    timeline: "Aug 2019 - Jun 2023",
+    company: "University of Santo Tomas",
+    position:
+      "BS Information Technology, Major in Web and Mobile App Development",
+  },
+  {
+    id: 3,
+    timeline: "Jan 2023 - Apr 2023",
+    company: "Symph",
+    position: "Software Developer Intern",
+  },
+  {
+    id: 4,
+    timeline: "Jun 2023 - Present",
+    company: "PwC Acceleration Center Manila",
+    position: "Full Stack Developer Associate",
+  },
+];
