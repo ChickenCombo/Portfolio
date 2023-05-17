@@ -7,6 +7,12 @@ const Experience = () => {
       <OL>
         <LI className="mb-8">
           <Bullet />
+          <Time>Jun 2023 - Present</Time>
+          <H2>PwC Acceleration Center Manila</H2>
+          <P>Full Stack Developer Associate</P>
+        </LI>
+        <LI className="mb-8">
+          <Bullet />
           <Time>Jan 2023 - Apr 2023</Time>
           <H2>Symph, Inc</H2>
           <P>Software Developer Intern</P>

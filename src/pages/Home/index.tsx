@@ -39,7 +39,7 @@ const Home = () => {
             </H1>
             <H2>
               <Highlight color="rgb(125, 216, 236)">
-                &mdash;&nbsp;Software Developer
+                &mdash;&nbsp;Full Stack Developer
               </Highlight>
             </H2>
             <P>
