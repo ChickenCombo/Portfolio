@@ -10,7 +10,7 @@ const Experience = () => {
           .slice()
           .reverse()
           .map((experience) => (
-            <LI className="mb-8" key={experience.id}>
+            <LI key={experience.id}>
               <Bullet />
               <Time>{experience.timeline}</Time>
               <H2>{experience.company}</H2>

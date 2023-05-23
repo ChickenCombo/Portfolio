@@ -19,8 +19,8 @@ const About = () => {
         </H1>
         <H2 className="mb-1">Introduction</H2>
         <P className="mb-3">
-          Hello there! I'm Lester, a graduating{" "}
-          <Underline color="rgb(255, 198, 69)">BSIT </Underline>student at the
+          Hello there! I'm Lester, a {" "}
+          <Underline color="rgb(255, 198, 69)">BSIT </Underline>graduate at the
           University of Santo Tomas, and I major in Web and Mobile App
           Development. I have a passion for taking on challenges and developing
           applications that make a difference and enhance the quality of life

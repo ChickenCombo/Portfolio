@@ -43,7 +43,7 @@ const Home = () => {
               </Highlight>
             </H2>
             <P>
-              A graduating student at the{" "}
+              A graduate from the{" "}
               <Underline color="rgb(255, 198, 69)">
                 University of Santo Tomas
               </Underline>{" "}

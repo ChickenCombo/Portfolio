@@ -12,7 +12,7 @@ export const OL = tw.ol`
 `;
 
 export const LI = tw.li`
-  ml-4
+  ml-4 mb-4 last:mb-0
 `;
 
 export const Bullet = tw.div`
