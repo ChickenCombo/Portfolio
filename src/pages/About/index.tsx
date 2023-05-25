@@ -19,7 +19,7 @@ const About = () => {
         </H1>
         <H2 className="mb-1">Introduction</H2>
         <P className="mb-3">
-          Hello there! I'm Lester, a {" "}
+          Hello there! I'm Lester, a{" "}
           <Underline color="rgb(255, 198, 69)">BSIT </Underline>graduate at the
           University of Santo Tomas, and I major in Web and Mobile App
           Development. I have a passion for taking on challenges and developing
@@ -30,11 +30,11 @@ const About = () => {
           I have experience with developing and releasing native Android apps
           using <Underline color="rgb(255, 198, 69)">Java/Kotlin</Underline>,
           and a little bit of cross-plaform development with{" "}
-          <Underline color="rgb(255, 198, 69)">React Native.{" "}</Underline>
+          <Underline color="rgb(255, 198, 69)">React Native. </Underline>
           Recently, my focus has shifted towards full-stack web development, and
           I am currently focused in improving my proficiency in using{" "}
-          <Underline color="rgb(255, 198, 69)">MERN stack</Underline> (MongoDB,
-          Express, React, Node.js), as well as building{" "}
+          <Underline color="rgb(255, 198, 69)">MERN/PERN stack</Underline>{" "}
+          (MongoDB/PostgreSQL, Express, React, Node.js), as well as building{" "}
           <Underline color="rgb(255, 198, 69)">REST APIs</Underline>.
         </P>
         <H2 className="mb-4">Tech Stacks</H2>

@@ -61,7 +61,7 @@ const Contacts = () => {
             <Brackets color="rgb(255, 198, 69)">
               <P className="flex items-center text-sm truncate">
                 <FiMail className="mr-2" />
-                johnlester.cuadra.cics@ust.edu.ph
+                johnlestercuadra.dev@gmail.com
               </P>
               <P className="flex items-center text-sm truncate">
                 <FiLinkedin className="mr-2" />
