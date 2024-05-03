@@ -1,31 +1,15 @@
 import {
   SiReact,
-  SiTailwindcss,
   SiTypescript,
   SiJavascript,
   SiExpress,
   SiMongodb,
-  SiMysql,
-  SiFirebase,
-  SiHtml5,
-  SiCss3,
-  SiNodedotjs,
   SiPostgresql,
-  SiVite,
-  SiJest,
-  SiTestinglibrary,
-  SiCypress,
-  SiGit,
-  SiKotlin,
-  SiPython,
-  SiSolidity,
-  SiGithub,
   SiAngular,
   SiNextdotjs,
   SiNestjs,
   SiMicrosoftsqlserver,
 } from "react-icons/si";
-import { FaJava } from "react-icons/fa";
 import dora from "./assets/dora.png";
 import trinketsofluna from "./assets/trinketsofluna.png";
 import weatherapp from "./assets/weatherapp.png";
