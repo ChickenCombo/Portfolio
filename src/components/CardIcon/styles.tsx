@@ -1,7 +1,7 @@
 import tw from "tailwind-styled-components";
 
 export const Container = tw.div`
-  flex flex-row flex-wrap w-full justify-center mb-3
+  flex flex-row flex-wrap w-full mb-3
 `;
 
 export const Card = tw.button`

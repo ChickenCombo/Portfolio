@@ -20,6 +20,10 @@ import {
   SiPython,
   SiSolidity,
   SiGithub,
+  SiAngular,
+  SiNextdotjs,
+  SiNestjs,
+  SiMicrosoftsqlserver,
 } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import dora from "./assets/dora.png";
@@ -93,29 +97,26 @@ export const projects = [
   },
 ];
 
-export const techStacks = [
-  { name: "HTML5", icon: <SiHtml5 /> },
-  { name: "CSS3", icon: <SiCss3 /> },
-  { name: "JavaScript", icon: <SiJavascript /> },
+export const programmingLanguages = [
   { name: "TypeScript", icon: <SiTypescript /> },
-  { name: "Node.js", icon: <SiNodedotjs /> },
-  { name: "Express", icon: <SiExpress /> },
+  { name: "JavaScript", icon: <SiJavascript /> },
+];
+
+export const frontendStacks = [
+  { name: "Angular", icon: <SiAngular /> },
+  { name: "Next.js", icon: <SiNextdotjs /> },
   { name: "React", icon: <SiReact /> },
-  { name: "Vite", icon: <SiVite /> },
-  { name: "TailwindCSS", icon: <SiTailwindcss /> },
-  { name: "MongoDB", icon: <SiMongodb /> },
+];
+
+export const backendStacks = [
+  { name: "NestJS", icon: <SiNestjs /> },
+  { name: "Express.js", icon: <SiExpress /> },
+];
+
+export const databaseStacks = [
   { name: "PostgreSQL", icon: <SiPostgresql /> },
-  { name: "MySQL", icon: <SiMysql /> },
-  { name: "Firebase", icon: <SiFirebase /> },
-  { name: "Jest", icon: <SiJest /> },
-  { name: "React Testing Library", icon: <SiTestinglibrary /> },
-  { name: "Cypress", icon: <SiCypress /> },
-  { name: "Java", icon: <FaJava /> },
-  { name: "Kotlin", icon: <SiKotlin /> },
-  { name: "Python", icon: <SiPython /> },
-  { name: "Solidity", icon: <SiSolidity /> },
-  { name: "Git", icon: <SiGit /> },
-  { name: "GitHub", icon: <SiGithub /> },
+  { name: "MS SQL Server", icon: <SiMicrosoftsqlserver /> },
+  { name: "MongoDB", icon: <SiMongodb /> },
 ];
 
 export const experiences = [

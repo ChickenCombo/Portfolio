@@ -2,7 +2,12 @@ import { H1, H2, Highlight, P, Underline } from "../../components/global";
 import { Container } from "./styles";
 import CardIcon from "../../components/CardIcon";
 import Experience from "../../components/Experience";
-import { techStacks } from "../../data";
+import {
+  backendStacks,
+  databaseStacks,
+  frontendStacks,
+  programmingLanguages,
+} from "../../data";
 import { useIsInViewport } from "../../hooks/useIsInViewport";
 import { useRef } from "react";
 import { RoughNotationGroup } from "react-rough-notation";
@@ -27,18 +32,23 @@ const About = () => {
           for others.
         </P>
         <P className="mb-3">
-          I have experience with developing and releasing native Android apps
-          using <Underline color="rgb(255, 198, 69)">Java/Kotlin</Underline>,
-          and a little bit of cross-plaform development with{" "}
-          <Underline color="rgb(255, 198, 69)">React Native. </Underline>
-          Recently, my focus has shifted towards full-stack web development, and
-          I am currently focused in improving my proficiency in using{" "}
-          <Underline color="rgb(255, 198, 69)">MERN/PERN stack</Underline>{" "}
-          (MongoDB/PostgreSQL, Express, React, Node.js), as well as building{" "}
-          <Underline color="rgb(255, 198, 69)">REST APIs</Underline>.
+          I have experience with building full stack web applications using
+          <Underline color="rgb(255, 198, 69)">
+            {" "}
+            Angular or React/Next.js{" "}
+          </Underline>
+          for my frontend and{" "}
+          <Underline color="rgb(255, 198, 69)">NestJS or Express.js </Underline>
+          for my backend.
         </P>
-        <H2 className="mb-4">Tech Stacks</H2>
-        <CardIcon icons={techStacks} />
+        <H2 className="mb-4">Main Programming Languages</H2>
+        <CardIcon icons={programmingLanguages} />
+        <H2 className="mb-4">Frontend Frameworks</H2>
+        <CardIcon icons={frontendStacks} />
+        <H2 className="mb-4">Backend Frameworks</H2>
+        <CardIcon icons={backendStacks} />
+        <H2 className="mb-4">Database</H2>
+        <CardIcon icons={databaseStacks} />
         <H2 className="mb-4">Experience</H2>
         <Experience />
       </RoughNotationGroup>
